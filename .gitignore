@@ -1,15 +1,16 @@
-# dbt artifacts
-logs/
-target/
-dbt_packages/
-
-# DuckDB database file
-*.db
-
-# Python virtual environment
-venv/
+Lib/
+Scripts/
 .venv/
-
-# Python artifacts
+venv/
 __pycache__/
 *.pyc
+*.egg-info/
+
+# dbt artifacts
+target/
+logs/
+dbt_project.db
+
+# Word temporary files
+~$*
+pyvenv.cfg

@@ -1,0 +1,7 @@
+# profiles.yml
+dbt_project:      # <--- MATCHES 'profile: dbt_project' in your dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'dbt_project.db'  # Ensure this matches the DB file created by your python script
