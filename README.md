@@ -1,4 +1,4 @@
-# Local Analytics Warehouse with dbt & DuckDB
+# Modern Data Warehouse Pipeline
 
 This project demonstrates a modern, local analytics pipeline using dbt for transformations and DuckDB as a high-speed, in-process data warehouse.
 
