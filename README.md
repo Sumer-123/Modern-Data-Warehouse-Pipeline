@@ -2,7 +2,7 @@
 
 This project demonstrates a modern, local analytics pipeline using dbt for transformations and DuckDB as a high-speed, in-process data warehouse.
 
-The pipeline ingests raw CSV data, models it using SQL, runs data quality tests to ensure integrity, and automatically generates a full documentation site with a data lineage graph. This showcases a code-first, version-controlled approach to analytics engineering.
+The pipeline ingests raw CSV data, models it using SQL, runs data quality tests to ensure integrity, and automatically generates a full documentation site with a data lineage graph. This showcases a code-first, version-controlled approach to analytics engineering
 
 ---
 
